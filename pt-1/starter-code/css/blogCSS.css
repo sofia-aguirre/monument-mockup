@@ -1,0 +1,52 @@
+/* ====Layout==== */
+body
+
+/* ====Nav==== */
+nav {
+    /* display: flex;
+    justify-content: flex-start;
+    align-content: center; */
+}
+
+a {
+    text-transform: uppercase; 
+    text-decoration-line: none;
+}
+
+.headNav, .footNav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ====Headers==== */
+header {
+    text-align: center;
+    text-transform: uppercase;
+    /* how do i so kernel spacing? */
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+
+}
+
+/* ====Main===== */
+.articleImg {
+    width: 100%;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+/* ====Footer==== */
+footer {
+    text-align: center;
+    background-color: skyblue;
+    padding-bottom: 1.5em;
+}
