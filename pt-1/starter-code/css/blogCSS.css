@@ -1,5 +1,7 @@
 /* ====Layout==== */
-body
+* {
+    font-family: "Verdana" , sans-serif;
+}
 
 /* ====Nav==== */
 nav {
@@ -11,20 +13,42 @@ nav {
 a {
     text-transform: uppercase; 
     text-decoration-line: none;
+    padding: 5px 40px;
+    color: inherit;
+}
+
+.headNav {
+    text-decoration: none;
+    color: #6f8faa;
 }
 
 .headNav, .footNav{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    letter-spacing: .1em;
+}
+
+.headNav, .issueNav, .footNav {
+    /* font-family: "Raleway" , sans-serif;
+    font-weight: 600; */
+}
+
+.issueNav {
+    color: #6f8faa;
+    font-weight: 500;
 }
 
 /* ====Headers==== */
 header {
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-    /* how do i so kernel spacing? */
+    letter-spacing: .5em;
+    color: #4d4949;
 }
 
 h2 {
@@ -42,6 +66,8 @@ h3 {
 
 p {
     line-height: 1.3em;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
 }
 
 /* ====Footer==== */
