@@ -76,3 +76,7 @@ footer {
     background-color: skyblue;
     padding-bottom: 1.5em;
 }
+
+.issueNav li a {
+    margin-left: -30px;
+}
